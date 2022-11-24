@@ -63,6 +63,30 @@ dis_users_B = {}
 for key in users:
     print(str(users.index(key)) + ". " + str(key))
 
+# Gold
+birthdays = {
+     'Wardah': '1986/09/30',
+     'Soubash': '2000/01 /01',
+     'Eiliyah': '2009/12/11',
+     'Macaroni': '1999/03/31',
+     'Ameer': '1952/07/04'
+}
+print('Welcome, you can look up the birthdays of the people in the list')
+
+user1 = input("Please enter a name:")
+hb = birthdays[user1]
+
+print(f'{user1}s birthday is: {hb}' + ' . ' + f'Happiest Birthday to you {user1}' + '. ' + 'Please accept our heartiest blessings on this joyous occasion')
+# print out all names in dict
+
+for i in birthdays:
+     print(i)
+if user1 in birthdays:
+     print(f'{user1}s birthday is: {hb}' + ' . ' + f'Happiest Birthday to you {user1}' + '. ' + 'Please accept our heartiest blessings on this joyous occasion')
+else:
+    print(f'Sorry, we don’t have the birthday information for {user1}')
+
+
 
 
 
