@@ -88,6 +88,25 @@ else:
 
 
 
+# ex I dont know
+
+items = {"banana": 4,
+     "apple": 2,
+     "orange": 1.5,
+     "pear": 3}
+
+print(items.items())
+for i in items:
+    print(f'The price of {i} is Rs.{items[i]}')
+
+# ex 2
+items = {
+    "banana": {"price": 4, "stock": 10},
+    "apple": {"price": 2, "stock": 5},
+    "orange": {"price": 1.5, "stock": 24},
+    "pear": {"price": 3, "stock": 1}
+}
+
 
 
 
